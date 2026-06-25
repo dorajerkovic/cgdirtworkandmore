@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Style Guide | CG Dirt Work and More</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ HEADER (live component) ============ -->
+  <header id="site-header" class="header--light">
+    <a href="#" class="logo"><span class="logo--text">CG Dirt Work <span class="accent">&amp; More</span></span></a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+    </button>
+    <nav class="nav" id="primary-nav">
+      <div class="nav-item has-dropdown">
+        <a href="#" class="nav-link">Services <span class="caret" aria-hidden="true">&#9662;</span></a>
+        <div class="dropdown">
+          <a href="#">Retaining Walls</a>
+          <a href="#">Excavation &amp; Site Prep</a>
+          <a href="#">Pond &amp; Ditch Digging</a>
+          <a href="#">Gravel Driveways &amp; Pads</a>
+          <a href="#">Trenching &amp; Utility Work</a>
+          <a href="#">Land Management &amp; Habitat</a>
+        </div>
+      </div>
+      <a href="#">Projects</a>
+      <a href="#">Service Area</a>
+      <a href="#">About</a>
+      <a href="#">FAQ</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ============ COLOR / TYPE ============ -->
+  <section class="section section--light" style="padding-top: calc(var(--header-h) + 2rem);">
+    <div class="container">
+      <span class="eyebrow">Design System Preview</span>
+      <h1>Headings use the <span class="accent">accent navy</span></h1>
+      <p class="lead">This is lead text. Body copy below uses the body color #142038 over a near-white background. This page is a private preview to approve the look &mdash; no real content yet.</p>
+      <p>Regular paragraph text. The quick brown fox jumps over the lazy dog. Links like <a href="#">this example link</a> use the primary blue. Everything you see here is the shared style system that every page on the site will inherit.</p>
+
+      <h2 style="margin-top:2rem;">Color palette</h2>
+      <div class="row row--2">
+        <div>
+          <div class="sg-swatch"><span class="sg-chip" style="background:#0f1f41"></span><span class="sg-label">Accent / headings &mdash; <code>#0f1f41</code></span></div>
+          <div class="sg-swatch"><span class="sg-chip" style="background:#142038"></span><span class="sg-label">Body text &mdash; <code>#142038</code></span></div>
+          <div class="sg-swatch"><span class="sg-chip" style="background:#2e58a2"></span><span class="sg-label">Links / primary button &mdash; <code>#2e58a2</code></span></div>
+        </div>
+        <div>
+          <div class="sg-swatch"><span class="sg-chip" style="background:#fdfdfe"></span><span class="sg-label">Background &mdash; <code>#fdfdfe</code></span></div>
+          <div class="sg-swatch"><span class="sg-chip" style="background:#f3f5f9"></span><span class="sg-label">Alt section &mdash; <code>#f3f5f9</code></span></div>
+          <div class="sg-swatch"><span class="sg-chip" style="background:#6f9be0"></span><span class="sg-label">Bright accent (on dark) &mdash; <code>#6f9be0</code></span></div>
+        </div>
+      </div>
+
+      <h2 style="margin-top:2rem;">Buttons &amp; states <small style="font-weight:500;font-size:0.9rem;opacity:0.6;">(hover / focus to see states)</small></h2>
+      <div class="btn-group">
+        <a class="btn" href="#">Primary</a>
+        <a class="btn btn--outline" href="#">Outline</a>
+        <a class="btn btn--ghost" href="#">Ghost</a>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn--sm" href="#">Small</a>
+        <a class="btn" href="#">Default</a>
+        <a class="btn btn--lg" href="#">Large</a>
+        <button class="btn is-disabled" type="button">Disabled</button>
+      </div>
+      <p style="margin-top:1rem;">Inline animated link: <a class="link-underline" href="#">hover this link</a> to see the underline sweep. Standard link: <a href="#">regular link hover</a>.</p>
+    </div>
+  </section>
+
+  <!-- ============ IMAGE OVERLAYS / HOVER ============ -->
+  <section class="section section--light-alt">
+    <div class="container">
+      <h2>Image hover overlays</h2>
+      <p class="intro">Hover any tile: the image zooms and a navy gradient reveals a caption. Used for the Projects gallery and service highlights. The last tile keeps its caption always-on.</p>
+      <div class="feature-grid" style="margin-top:1.5rem;">
+        <a class="media" href="#">
+          <div class="img-placeholder" style="aspect-ratio:4/3;height:100%;">Project image</div>
+          <div class="media-overlay"><h3>Retaining Wall Build</h3><p>Hover-revealed caption</p></div>
+        </a>
+        <a class="media" href="#">
+          <div class="img-placeholder" style="aspect-ratio:4/3;height:100%;">Project image</div>
+          <div class="media-overlay"><h3>Pond Excavation</h3><p>Hover-revealed caption</p></div>
+        </a>
+        <a class="media media--captioned" href="#">
+          <div class="img-placeholder" style="aspect-ratio:4/3;height:100%;">Project image</div>
+          <div class="media-overlay"><h3>Always-on caption</h3><p>Stays visible without hover</p></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES CARDS ============ -->
+  <section class="section--dark" style="padding-top:3rem;padding-bottom:3rem;">
+    <div class="container" style="margin-bottom:1.5rem;"><h2>Service cards</h2><p class="intro">Cards, images, and buttons all use the iOS-standard corner radius.</p></div>
+    <div class="services-grid">
+      <a class="card" href="#">
+        <div class="card-img"><div class="img-placeholder">Image placeholder<br>16:9</div></div>
+        <h3>Retaining Walls</h3>
+        <p>Sample card description text sits here to show spacing and color.</p>
+        <ul><li>Bullet point one</li><li>Bullet point two</li><li>Bullet point three</li></ul>
+      </a>
+      <a class="card" href="#">
+        <div class="card-img"><div class="img-placeholder">Image placeholder<br>16:9</div></div>
+        <h3>Excavation &amp; Site Prep</h3>
+        <p>Sample card description text sits here to show spacing and color.</p>
+        <ul><li>Bullet point one</li><li>Bullet point two</li><li>Bullet point three</li></ul>
+      </a>
+      <a class="card" href="#">
+        <div class="card-img"><div class="img-placeholder">Image placeholder<br>16:9</div></div>
+        <h3>Pond &amp; Ditch Digging</h3>
+        <p>Sample card description text sits here to show spacing and color.</p>
+        <ul><li>Bullet point one</li><li>Bullet point two</li><li>Bullet point three</li></ul>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE GRID + CHECKLIST ============ -->
+  <section class="section section--light section--center">
+    <div class="container">
+      <h2>Feature grid &amp; checklist</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+          <h3>Feature One</h3><p>Short supporting description for this feature card.</p>
+        </article>
+        <article class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <h3>Feature Two</h3><p>Short supporting description for this feature card.</p>
+        </article>
+        <article class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 24 24"><path d="M3 12l4 4L21 4"/></svg>
+          <h3>Feature Three</h3><p>Short supporting description for this feature card.</p>
+        </article>
+      </div>
+      <ul class="checklist">
+        <li class="check-item"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span>Checklist item demonstrating the check icon and alignment</span></li>
+        <li class="check-item"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span>A second checklist item to show vertical rhythm</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="section section--light-alt section--center">
+    <div class="container">
+      <h2>Process timeline</h2>
+      <div class="timeline">
+        <div class="timeline-step"><div class="step-node"><span class="step-number">1</span></div><h3>Step One</h3><p>Description of the first step in the process.</p></div>
+        <div class="timeline-step"><div class="step-node"><span class="step-number">2</span></div><h3>Step Two</h3><p>Description of the second step in the process.</p></div>
+        <div class="timeline-step"><div class="step-node"><span class="step-number">3</span></div><h3>Step Three</h3><p>Description of the third step in the process.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ + FORM PLACEHOLDER ============ -->
+  <section class="section section--light">
+    <div class="container">
+      <div class="row row--2" style="align-items:start;">
+        <div>
+          <h2>FAQ accordion</h2>
+          <div class="faq-list" style="margin-top:1rem;">
+            <details class="faq-item" open><summary>This is a sample question?</summary><p>This is the answer text. The accordion expands and collapses, and the plus icon rotates.</p></details>
+            <details class="faq-item"><summary>Another sample question?</summary><p>Another answer demonstrating the closed state styling.</p></details>
+          </div>
+        </div>
+        <div>
+          <h2>Contact form slot</h2>
+          <div class="form-placeholder" style="margin-top:1rem;">
+            <span>Contact form embed goes here</span>
+            <small>Placeholder &mdash; code snippet to be added later</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="banner" style="background:var(--accent);">
+    <div class="container container--narrow">
+      <h2>This is a call-to-action banner</h2>
+      <p class="intro">Banners use the accent navy (or a photo with overlay on real pages) with centered text and buttons.</p>
+      <div class="btn-group">
+        <a class="btn" href="#">Call (573) 280-7023</a>
+        <a class="btn btn--outline" href="#">Text (573) 280-7023</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER (live component) ============ -->
+  <footer class="footer body-small">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <div class="footer-logo"><span class="logo--text">CG Dirt Work &amp; More</span></div>
+        <p>Owner-operated excavation and land services across Skiatook and northeast Oklahoma.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Retaining Walls</a></li>
+          <li><a href="#">Excavation &amp; Site Prep</a></li>
+          <li><a href="#">Pond &amp; Ditch Digging</a></li>
+          <li><a href="#">Gravel Driveways &amp; Pads</a></li>
+          <li><a href="#">Trenching &amp; Utility Work</a></li>
+          <li><a href="#">Land Management &amp; Habitat</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          Skiatook, Osage County, OK<br />
+          <a href="tel:+15732807023">(573) 280-7023</a><br />
+          <a href="mailto:cgdirtwork@gmail.com">cgdirtwork@gmail.com</a><br />
+          <a href="#">cgdirtworkandmore.com</a>
+        </address>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul class="hours"><li>Hours to be confirmed</li></ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 CG Dirt Work and More. All rights reserved.</p>
+      <nav class="footer-legal">
+        <a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Cookie Policy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById('site-header');
+    const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 20);
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+    (function () {
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.getElementById('primary-nav');
+      if (!toggle || !nav) return;
+      const isMobile = () => window.matchMedia('(max-width: 900px)').matches;
+      function closeMenu() { header.classList.remove('nav-open'); toggle.setAttribute('aria-expanded','false');
+        nav.querySelectorAll('.open').forEach((el)=>el.classList.remove('open')); }
+      toggle.addEventListener('click', function () {
+        const open = header.classList.toggle('nav-open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        if (!open) nav.querySelectorAll('.open').forEach((el)=>el.classList.remove('open'));
+      });
+      nav.querySelectorAll('.has-dropdown > .nav-link').forEach(function (link) {
+        link.addEventListener('click', function (e) { if (!isMobile()) return; e.preventDefault();
+          link.parentElement.classList.toggle('open'); });
+      });
+      window.addEventListener('resize', function () { if (!isMobile()) closeMenu(); });
+    })();
+  </script>
+</body>
+</html>
