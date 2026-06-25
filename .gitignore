@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Editor / OS noise
+*.swp
+*~
+
+# Local preview / build artifacts
+.cache/
+node_modules/
