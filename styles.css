@@ -291,12 +291,20 @@ a.link-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); t
 .feature-icon { width: 40px; height: 40px; fill: none; stroke: var(--primary); stroke-width: 2;
   stroke-linecap: round; stroke-linejoin: round; margin-bottom: 0.75rem; }
 .section--dark .feature-icon { stroke: var(--accent-bright); }
+.feature-grid--2 { grid-template-columns: repeat(2, 1fr); max-width: 900px; margin-left: auto; margin-right: auto; }
+@media (max-width: 640px) { .feature-grid--2 { grid-template-columns: 1fr; } }
+.feature-card ul { margin: 0.9rem 0 0; padding-left: 1.15rem; font-size: 0.95rem; }
+.feature-card li { margin-bottom: 0.35rem; }
+.section--dark .feature-card ul { color: var(--on-dark-muted); }
 
 /* ---- Checklist ---------------------------------------------------------- */
-.checklist { list-style: none; padding: 0; margin: 2rem auto 0; max-width: 640px; text-align: left; }
-.check-item { display: flex; gap: 0.85rem; align-items: flex-start; margin-bottom: 1rem; }
+.checklist { list-style: none; padding: 0; margin: 2rem auto 0; max-width: 760px; text-align: left; }
+.check-item { display: flex; gap: 0.85rem; align-items: flex-start; margin-bottom: 1rem;
+  border: 1px solid var(--border); border-radius: var(--radius-card);
+  padding: 1.1rem 1.35rem; background: var(--surface); box-shadow: var(--shadow-sm); }
 .check-item svg { flex: 0 0 24px; width: 24px; height: 24px; fill: none; stroke: var(--primary);
   stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; margin-top: 2px; }
+.section--center .check-item { justify-content: center; text-align: center; }
 
 /* ---- Timeline / process ------------------------------------------------- */
 .timeline { display: grid; gap: 1.5rem; margin-top: 2.5rem;
@@ -370,6 +378,22 @@ blockquote.slide { margin: 0; padding: 0 1rem; }
 .banner .intro { color: var(--on-dark); }
 .banner .btn-group { justify-content: center; }
 
+/* ---- Floating CTA box --------------------------------------------------- */
+.cta-band { padding: clamp(3rem, 7vw, 5rem) 0 0; background: var(--bg-alt); }
+.cta-float {
+  width: 100%; margin: 0 auto -80px; position: relative; z-index: 2;
+  background: var(--accent-bright); color: #fff; text-align: center;
+  border-radius: 24px; padding: clamp(2.25rem, 5vw, 3.75rem);
+  box-shadow: 0 24px 60px rgba(15, 31, 65, 0.28);
+}
+.cta-float h2 { color: #fff; }
+.cta-float p { color: #fff; opacity: 0.95; max-width: 62ch; margin: 0 auto; }
+.cta-float .btn-group { justify-content: center; margin-top: 1.75rem; }
+.cta-float .btn--outline { background: transparent; color: #fff; border-color: #fff; }
+.cta-float .btn--outline:hover { background: #fff; color: var(--accent); border-color: #fff; }
+.footer.footer--offset { padding-top: 11rem; }
+@media (max-width: 640px) { .cta-float { margin-bottom: -64px; } .footer.footer--offset { padding-top: 10rem; } }
+
 /* ---- Forms / placeholders ----------------------------------------------- */
 .form-placeholder {
   border: 2px dashed var(--primary); border-radius: var(--radius-card);
@@ -378,6 +402,8 @@ blockquote.slide { margin: 0; padding: 0 1rem; }
   display: grid; place-content: center; gap: 0.5rem;
 }
 .form-placeholder small { font-weight: 500; color: var(--text); opacity: 0.7; }
+.form-embed { background: #fff; border-radius: var(--radius-card); overflow: hidden; box-shadow: var(--shadow-sm); }
+.form-embed iframe { display: block; width: 100%; min-height: 700px; border: none; }
 
 .img-placeholder {
   background: repeating-linear-gradient(45deg, var(--bg-alt), var(--bg-alt) 12px, #eaeef5 12px, #eaeef5 24px);
