@@ -332,7 +332,7 @@ a.link-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); t
 .related-links li { margin-bottom: 0.5rem; }
 
 /* ---- svc-intro (service / city hero) ------------------------------------ */
-.svc-intro { position: relative; color: #fff; padding-top: calc(var(--header-h) + 3rem); }
+.svc-intro { position: relative; color: #fff; padding-top: calc(var(--header-h) + 3rem); background: transparent; }
 .svc-intro .bg-photo + .bg-overlay { z-index: -1; }
 .svc-intro h1 { color: #fff; }
 .svc-intro .lead { color: var(--on-dark); }
