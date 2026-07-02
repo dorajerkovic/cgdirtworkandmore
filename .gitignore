@@ -16,3 +16,4 @@
 # Local preview / build artifacts
 .cache/
 node_modules/
+/images/1 section images/
