@@ -185,9 +185,6 @@ a:focus-visible { outline: 3px solid var(--accent-bright); outline-offset: 3px; 
   box-shadow: 0 1px 0 var(--border);
 }
 .logo img { height: 42px; width: auto; display: block; }
-.logo .logo-dark { display: none; }
-#site-header.scrolled .logo .logo-white, #site-header.header--light .logo .logo-white { display: none; }
-#site-header.scrolled .logo .logo-dark, #site-header.header--light .logo .logo-dark { display: block; }
 /* Placeholder logo text until real logo is supplied */
 .logo--text { font-weight: 800; font-size: 1.2rem; color: var(--accent); letter-spacing: -0.02em; }
 .scrolled .logo--text, .header--light .logo--text { color: var(--accent); }
