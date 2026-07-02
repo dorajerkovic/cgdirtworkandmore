@@ -6,62 +6,62 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/service-area.html</loc>
+    <loc>https://cgdirtworkandmore.com/service-areas/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/about.html</loc>
+    <loc>https://cgdirtworkandmore.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/projects.html</loc>
+    <loc>https://cgdirtworkandmore.com/project-portfolio/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/contact.html</loc>
+    <loc>https://cgdirtworkandmore.com/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/faq.html</loc>
+    <loc>https://cgdirtworkandmore.com/faq/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services/retaining-walls.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/retaining-walls/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services/excavation-site-preparation.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/excavation-site-preparation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services/pond-ditch-digging.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/pond-digging-excavation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services/gravel-driveways-pads.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/gravel-driveways/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services/trenching-utility-work.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/trenching-utility-work/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/services/land-management-habitat.html</loc>
+    <loc>https://cgdirtworkandmore.com/services/land-management-habitat-work/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -81,12 +81,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/skiatook/pond-ditch-digging/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/skiatook/pond-digging-excavation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/skiatook/gravel-driveways-pads/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/skiatook/gravel-driveways/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -96,7 +96,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/skiatook/land-management-habitat/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/skiatook/land-management-habitat-work/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -116,12 +116,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/owasso/pond-ditch-digging/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/owasso/pond-digging-excavation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/owasso/gravel-driveways-pads/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/owasso/gravel-driveways/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -131,7 +131,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/owasso/land-management-habitat/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/owasso/land-management-habitat-work/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -151,12 +151,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/collinsville/pond-ditch-digging/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/collinsville/pond-digging-excavation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/collinsville/gravel-driveways-pads/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/collinsville/gravel-driveways/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -166,7 +166,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/collinsville/land-management-habitat/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/collinsville/land-management-habitat-work/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -186,12 +186,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/claremore/pond-ditch-digging/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/claremore/pond-digging-excavation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/claremore/gravel-driveways-pads/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/claremore/gravel-driveways/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -201,22 +201,22 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/oklahoma/claremore/land-management-habitat/</loc>
+    <loc>https://cgdirtworkandmore.com/oklahoma/claremore/land-management-habitat-work/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/privacy.html</loc>
+    <loc>https://cgdirtworkandmore.com/privacy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/terms.html</loc>
+    <loc>https://cgdirtworkandmore.com/terms/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://cgdirtworkandmore.com/cookie-policy.html</loc>
+    <loc>https://cgdirtworkandmore.com/cookie-policy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

@@ -1,5 +1,11 @@
 # macOS
 .DS_Store
+._*
+
+# Raw source photos (originals kept locally; optimized WebPs live in images/projects/)
+/Pads and Driveways/
+/images/Trenching & Augering/
+/images/Retaining Walls/
 
 # Editor / OS noise
 *.swp

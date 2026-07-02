@@ -22,7 +22,7 @@
   // the site is served at a domain root or under a subpath like GitHub Pages).
   var selfScript = document.currentScript || document.querySelector('script[src$="cookie-consent.js"]');
   var baseDir = selfScript ? selfScript.src.replace(/[^\/]*$/, '') : '';
-  var COOKIE_POLICY_URL = baseDir + 'cookie-policy.html';
+  var COOKIE_POLICY_URL = baseDir + 'cookie-policy/';
 
   /* ---- stored consent ---------------------------------------------------- */
   function readConsent() {
