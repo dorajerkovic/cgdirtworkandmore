@@ -334,7 +334,7 @@ a.link-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); t
 /* ---- svc-intro (service / city hero) ------------------------------------ */
 .svc-intro { position: relative; color: #fff; padding-top: calc(var(--header-h) + 3rem); background: var(--accent); overflow: hidden; }
 .svc-intro .bg-photo { z-index: 0; }
-.svc-intro .bg-overlay { z-index: 1; }
+.svc-intro .bg-overlay { z-index: 1; background: linear-gradient(180deg, rgba(15,31,65,0.72) 0%, rgba(15,31,65,0.9) 100%); }
 .svc-intro .container { position: relative; z-index: 2; }
 .svc-intro h1 { color: #fff; }
 .svc-intro .lead { color: var(--on-dark); }
