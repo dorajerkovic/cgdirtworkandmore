@@ -184,7 +184,10 @@ a:focus-visible { outline: 3px solid var(--accent-bright); outline-offset: 3px; 
   -webkit-backdrop-filter: saturate(180%) blur(12px);
   box-shadow: 0 1px 0 var(--border);
 }
-.logo img { height: 40px; width: auto; }
+.logo img { height: 42px; width: auto; display: block; }
+.logo .logo-dark { display: none; }
+#site-header.scrolled .logo .logo-white, #site-header.header--light .logo .logo-white { display: none; }
+#site-header.scrolled .logo .logo-dark, #site-header.header--light .logo .logo-dark { display: block; }
 /* Placeholder logo text until real logo is supplied */
 .logo--text { font-weight: 800; font-size: 1.2rem; color: var(--accent); letter-spacing: -0.02em; }
 .scrolled .logo--text, .header--light .logo--text { color: var(--accent); }
@@ -243,6 +246,7 @@ a:focus-visible { outline: 3px solid var(--accent-bright); outline-offset: 3px; 
   color: #fff; text-align: left;
 }
 .hero h1 { color: #fff; max-width: 18ch; }
+.hero h1 .accent { color: #fff; }
 .hero .lead { color: var(--on-dark); }
 .bg-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
 .bg-overlay { position: absolute; inset: 0; z-index: -1;
@@ -452,6 +456,7 @@ blockquote.slide { margin: 0; padding: 0 1rem; }
 .footer li { margin-bottom: 0.4rem; }
 .footer address { font-style: normal; line-height: 1.8; }
 .footer-logo .logo--text { color: #fff; }
+.footer-logo img { height: 48px; width: auto; }
 .social { margin-top: 1rem; display: flex; gap: 0.6rem; }
 .social svg { width: 32px; height: 32px; fill: var(--on-dark-muted); transition: fill 0.15s; }
 .social a:hover svg { fill: #fff; }
