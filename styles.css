@@ -239,7 +239,7 @@ a:focus-visible { outline: 3px solid var(--accent-bright); outline-offset: 3px; 
 /* ---- Hero --------------------------------------------------------------- */
 .hero {
   position: relative; min-height: 86vh; display: flex; flex-direction: column;
-  justify-content: center; padding: var(--header-h) var(--gutter) 4rem;
+  justify-content: flex-start; padding: calc(var(--header-h) + 7rem) var(--gutter) 4rem;
   color: #fff; text-align: left;
 }
 .hero h1 { color: #fff; max-width: 18ch; }
@@ -332,7 +332,7 @@ a.link-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); t
 .related-links li { margin-bottom: 0.5rem; }
 
 /* ---- svc-intro (service / city hero) ------------------------------------ */
-.svc-intro { position: relative; color: #fff; padding-top: calc(var(--header-h) + 3rem); background: var(--accent); overflow: hidden; }
+.svc-intro { position: relative; color: #fff; padding-top: calc(var(--header-h) + 6rem); background: var(--accent); overflow: hidden; }
 .svc-intro .bg-photo { z-index: 0; }
 .svc-intro .bg-overlay { z-index: 1; background: linear-gradient(180deg, rgba(15,31,65,0.72) 0%, rgba(15,31,65,0.9) 100%); }
 .svc-intro .container { position: relative; z-index: 2; }
